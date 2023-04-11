@@ -70,26 +70,74 @@ footer {
 
 
 
-
-/* すべての画面サイズで適用される設定 */
-.social i {
-  color:black;
-}
-/* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
-@media screen and (max-width: 1024px) {
-  .step-box{
-    width: 100%;
-  }
-}
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width: 768px) {
-  .step-box{
+
+
+
+  header {
     width: 100%;
   }
+
+
+  main {
+  width: 100%;
+  margin: 50px auto;
+  display: block;
 }
-/* スマートフォンサイズ（425px）以下の際に適用される設定 */
-@media screen and (max-width: 425px) {
+
+
+
   .step-box {
-    width: 100%;
-  }
+  width: 90%;
+  margin-bottom: 20px ;
+  padding: ;
+  position: ;
+  background-color: #eee;
+   margin-right: auto;
+  margin-left: auto;
+}
+
+.step-box:last-child {
+  margin-bottom: px;
+   margin-right: auto;
+  margin-left: auto;
+}
+  
+}
+
+.step-img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-num {
+  position: ;
+  top: ;
+  left: ;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.title {
+  margin: ;
+}
+
+
 }
